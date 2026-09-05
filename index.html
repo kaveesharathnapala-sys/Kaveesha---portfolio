@@ -1140,20 +1140,20 @@
                 </button>
             </div>
 
-            <form onsubmit="handleContactSubmit(event)" class="p-6 space-y-4">
-                <div>
+  <form action="https://formspree.io/f/xjyvoqjj" method="POST" class="p-6 space-y-4">
+      <div>
                     <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Name / Organization</label>
-                    <input type="text" required placeholder="e.g. Hiring Manager / Company Name" class="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:border-brand-800">
+                    <input type="text"name="name" required placeholder="e.g. Hiring Manager / Company Name" class="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:border-brand-800">
                 </div>
 
                 <div>
                     <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Contact Email</label>
-                    <input type="email" required placeholder="name@company.com" class="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:border-brand-800">
+                    <input type="email"name="email" required placeholder="name@company.com" class="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:border-brand-800">
                 </div>
 
                 <div>
                     <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Role / Message Inquiry</label>
-                    <textarea rows="4" required placeholder="Please outline any data entry, administrative, or office opportunity..." class="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:border-brand-800"></textarea>
+                    <textarea name="message" rows="4" required placeholder="Please outline any data entry, administrative, or office opportunity..." class="w-full px-3.5 py-2.5 text-sm border border-slate-300 rounded-lg focus:outline-none focus:border-brand-800"></textarea>
                 </div>
 
                 <div class="pt-2 flex justify-end space-x-3">
